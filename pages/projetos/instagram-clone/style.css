@@ -1,0 +1,173 @@
+* {
+    max-width: 100vw !important;
+}
+
+
+.section-projetos {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+iframe{
+    max-width: 100vw !important;
+}
+
+.image-header{
+    margin: auto;
+    max-width: 80vw;
+}
+
+.image-item{
+    margin: auto;
+    max-width: 80vw !important;
+}
+
+.problema {
+    width: min-content;
+    margin: auto;
+}
+
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.blockquote{
+  font-size: 1.4em;
+  font-weight: 600;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:10px solid #424c6d;
+  line-height:1.6;
+  position: relative;
+  background:#fff;
+}
+
+.blockquote::before{
+  font-family:Arial;
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.blockquote::after{
+  content: '';
+}
+
+.blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+.subtitulo{
+    font-size: 26px;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.subtitulo-simples{
+    font-size: 26px;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.projeto-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    max-width: 100vw !important;
+}
+.projeto-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 100vw;
+    width: 100%;
+    text-align: center;
+}
+
+.projeto-header .semibold {
+    font-size: 36px;
+}
+
+.projeto-header .regular {
+    font-size: 26px;
+}
+
+.projeto-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    max-width: 100vw;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.imgx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0 !important;
+    margin: auto;
+	width: 90vw;
+    max-width: 90vw;
+    height: 150px;
+	-webkit-mask-image: linear-gradient(to top, transparent 15%, #000 70%);
+	background-image: url("./../../../assets/img/insta.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment:fixed;
+}
+
+.container-image {
+    padding: 0 !important;
+    /* display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    justify-content: center; */
+    height: 100vh;             /* collapse the container's height */
+    /* width: 100vw;   */
+    /* max-width: 100vw;  specify any width you want (a percentage value, basically) */
+    /* apply a padding using the following formula */
+    /* this formula makes sure the aspect ratio of the container equals that of the svg graphic */
+    /* padding-top: 40%; */
+    position: relative;    /* create positioning context for svg */
+    overflow-y: hidden;
+}
+
+.iframe-image {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 1000px;
+    /* max-width: 900px; */
+    height: 100%;
+    padding: 0 !important;
+    overflow-x: hidden;
+}

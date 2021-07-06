@@ -1,0 +1,44 @@
+.section-posts {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.item-blog {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: left;
+    width: 600px;
+    padding: 1em;
+}
+
+.item-blog:hover {
+    cursor: pointer;
+}
+
+.item-blog:hover {
+    cursor: pointer;
+}
+
+.item-blog .semibold {
+    font-size: 32px;
+}
+
+.item-blog-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.image-item{
+    margin: auto;
+    width: 200px !important;
+    height: 200px;
+    max-width: 80vw !important;
+}

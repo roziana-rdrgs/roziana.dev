@@ -1,0 +1,286 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./jquery/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <title>roziana.dev</title>
+    <link href="./../../../style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../../../home.css">
+    <link rel="stylesheet" href="./../projetos.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./leituras.css">
+    <script type="text/javascript" src="leituras.js"></script>
+</head>
+
+<body id="projetos">
+    <div class="header blue">
+        <div class="header-home">
+            <div class="header-item">
+                <a href="./../../../index.html">home</a>
+            </div>
+        </div>
+
+        <div class="header-menu">
+            <div class="header-item">
+                <a href="./../../sobre/about-me.html">sobre</a>
+            </div>
+
+            <div class="header-item">
+                <a href="./../index.html" id="blog-link">blog</a>
+            </div>
+
+            <div class="header-item">
+                <a href="./../../projetos/index.html">portfólio</a>
+            </div>
+        </div>
+    </div>
+    <div class="livros-container">
+        <div class="titulos">
+            <div class="card-livro" onclick="buscarResenha(0)">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./14_habitos.jpg" alt=""></figure>
+                    </div>
+                    <div class="livro-info">
+                        <div class="bold">
+                            <h1>14 Hábitos de desenvolvedores Altamente Produtivos</h1>
+                            <div class="thin">
+                                <p>Leitura finalizada em: 14/06/2021</p>
+                                <p>Autor:</p>
+                                <p>Páginas:</p>
+                                <p>Onde eu comprei:</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <div class="card-livro" onclick="buscarResenha(1)">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./tetp_dois.jpg" alt=""></figure>
+                    </div>
+                    <div class="livro-info">
+                        <div class="bold">
+                            <h1>Teto para Dois</h1>
+                        </div>
+                        <div class="thin">
+                            <p>Leitura finalizada em: 14/06/2021</p>
+                            <p>Autor:</p>
+                            <p>Páginas:</p>
+                            <p>Onde eu comprei:</p>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./teste_mae.jpg" alt=""></figure>
+                    </div>
+                    <div class="livro-info">
+                        <div class="bold">
+                            <h1>O Teste da Mãe: Como Conversar Com Clientes e Descobrir se sua Ideia é Mesmo Boa, Mesmo
+                                Com
+                                Todos Mentindo para Você</h1>
+                        </div>
+                        <div class="thin">
+                            <p>Leitura finalizada em: 14/06/2021</p>
+                            <p>Autor:</p>
+                            <p>Páginas:</p>
+                            <p>Onde eu comprei:</p>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            <p>Leitura finalizada em: 14/06/2021</p>
+                            <p>Autor:</p>
+                            <p>Páginas:</p>
+                            <p>Onde eu comprei:</p>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <!-- <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            resumo
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            resumo
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            resumo
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            resumo
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            resumo
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <br>
+            <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            resumo
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <br>
+            <br> -->
+            <!-- <div class="card-livro">
+                <div class="linha">
+                    <div class="coluna">
+                        <figure><img src="./por_lugares_incriveis.jpg" alt=""></figure>
+                    </div>
+                    <div class="coluna">
+                        <div class="bold">
+                            <h1>Por Lugares Incríveis</h1>
+                        </div>
+                        <div class="thin">
+                            resumo
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div> -->
+            <br>
+        </div>
+        <div class="thin resenha">
+            <small>Atualizado em 29/06/2021</small>
+            <h2>Até o momento eu concluí a leitura de 14 livros.</h2>
+            <p>Selecione um título para saber um pouco mais sobre ele e o que eu achei da leitura</p>
+        
+            <br>
+            <br>
+            <div id="resumo-livro" class="regular"></div>
+        </div>
+    </div>
+
+
+    <footer class="extralight">
+        desenvolvido por roziana rodrigues
+    </footer>
+
+</body>

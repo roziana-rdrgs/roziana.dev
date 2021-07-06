@@ -1,0 +1,254 @@
+.card-livro {
+    width: 50vw;
+    height: 40vh;
+    margin: auto;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.resenha{
+    height: auto;
+    width: 30vw;
+    padding: 1em;
+}
+
+.livros-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 40%;
+    padding: 15px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.livro-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 60%;
+}
+
+hr {
+    width: 50vw;
+    margin: auto;
+    border: 1px solid rgba(255, 254, 238, 0.199);
+    border-radius: 0px;
+    margin-bottom: 1em;
+}
+
+.titulos {
+    overflow-y: scroll;
+    height: 80vh;
+    width: 70vw;
+}
+
+.titulos::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffd378;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ffd378;
+}
+
+
+@media (max-width: 200px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .livros-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .titulos {
+        overflow-y: scroll;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .resenha{
+        height: auto;
+        width: 90vw;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    .card-livro {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        padding: 1em;
+        margin-top: 2em;
+        cursor: pointer;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .livros-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .titulos {
+        overflow-y: scroll;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .resenha{
+        height: auto;
+        width: 90vw;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    .card-livro {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        padding: 1em;
+        margin-top: 2em;
+        cursor: pointer;
+    }
+  
+}
+@media (max-width: 480px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .livros-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .titulos {
+        overflow-y: scroll;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .resenha{
+        height: auto;
+        width: 90vw;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    .card-livro {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        padding: 1em;
+        margin-top: 2em;
+        cursor: pointer;
+    }
+
+}
+@media (max-width: 600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .livros-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .titulos {
+        overflow-y: scroll;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .resenha{
+        height: auto;
+        width: 90vw;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    .card-livro {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        padding: 1em;
+        margin-top: 2em;
+        cursor: pointer;
+    }
+}
+@media (max-width: 801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .livros-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .titulos {
+        overflow-y: scroll;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .resenha{
+        height: auto;
+        width: 90vw;
+    }
+
+    .linha {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    .card-livro {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        padding: 1em;
+        margin-top: 2em;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+@media (max-width: 1281px) {
+    /* hi-res laptops and desktops */
+}
